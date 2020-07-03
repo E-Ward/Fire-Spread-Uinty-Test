@@ -6,6 +6,9 @@ TagManager:
   tags:
   - MainFire
   - SmallFire
+  - FireCheck
+  - Flammable
+  - NotFlammable
   layers:
   - Default
   - TransparentFX

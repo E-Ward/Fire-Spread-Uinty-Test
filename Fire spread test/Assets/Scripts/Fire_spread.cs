@@ -36,6 +36,9 @@ public class Fire_spread : MonoBehaviour
 
             //xPos = Random.Range(-10, 10);
             //zPos = Random.Range(-10, 10);
+
+            
+
             Instantiate(miniFire, currentPos, Quaternion.identity);
             yield return new WaitForSeconds(.1f);
             fireCount += 1;
