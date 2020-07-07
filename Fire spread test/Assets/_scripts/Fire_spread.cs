@@ -47,7 +47,7 @@ public class Fire_spread : MonoBehaviour
             //13 seemed a good radius for the amount of fire being spawned
             if (radius <= 13)
             {
-                radius += 0.09f * Time.deltaTime;
+                radius += 10f * Time.deltaTime;
             }
             
 
